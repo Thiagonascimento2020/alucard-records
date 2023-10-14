@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    font-family: calibri;
+    color: white;
+}
+
+.alinhar{
+    width: 500px;
+    display: inline-block;
+}
+
+.alinhar_id{
+    width: 100px;
+    display: inline-block;
+}
+
+p{
+    font-size: 44px;
+    color: white;
+}
+
+select{
+    font-size: 44px;
+    color: black;
+    width: 400px;
+    display: inline-block;
+}
+
+input, legend{
+    font-size: 44px;
+    color: black;
+}
+
+.botao_sugestao{
+    cursor: pointer;
+}
+
+.cor_rosa{
+    color: pink;
+}
+
+.cor_vermelho{
+    color: red;
+}
+
+.cor_verde{
+    color: green;
+}
+
+form{
+    border: 4px solid;
+    border-radius: 4rem 4rem 4rem 4rem;
+}

@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    font-family: calibri;
+    color: white;
+    font-size: 50px;
+}
+
+input{
+    text-align: center;
+    font-family: calibri;
+    font-size: 50px; 
+}
+
+p{
+    font-size: 44px;
+    color: white;
+}
