@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cadastro de sugestão</title>
+        <link rel="stylesheet" type="text/css" href="cadsugestao.css"/> 
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method = "post" action="cadsugestao.jsp">
+            <p>
+                <label class="alinhar" style='color:white' for="ncp">Seu Nome Completo:*</label>
+                <input class="alinhar" id="ncp" type="text" name="nome_completo" size="20" maxlength="100" required>
+            </p>
+            <p>
+            <label class="alinhar" style='color:white' for="gen">Gênero:*</label>
+                <select class="alinhar" id="gen" name="genero" required>
+                    <option value="acao" >Ação</option>
+                    <option value="Anime" >Anime</option>
+                    <option class="cor_verde" value="Brasileiros" >Brasileiros </option>
+                    <option value="Classicos" >Clássicos</option>
+                    <option value="Comedia_stand_up" >Comédia stand-up</option>
+                    <option value="Comedias" >Comédias</option>
+                    <option value="Curtas" >Curtas</option>
+                    <option value="Documentarios" >Documentários</option>
+                    <option value="Dorama" >Dorama</option>
+                    <option value="Drama" >Drama</option>
+                    <option value="Esportes" >Esportes</option>
+                    <option value="Musica_e_musicais" >Música e musicais</option>
+                    <option value="Estrangeiros" >Estrangeiros</option>
+                    <option value="Fantasia" >Fantasia</option>
+                    <option value="Fe_e_espiritualidade" >Fé e espiritualidade</option>
+                    <option value="Ficcao_cientifica" >Ficção científica</option>
+                    <option value="Halloween" >Halloween</option>
+                    <option value="Hollywood" >Hollywood</option>
+                    <option value="Independentes" >Independentes</option>
+                    <option class="cor_rosa" value="LGBTQIA+" >LGBTQIA+</option>
+                    <option value="Para_a_familia_toda" >Para a família toda</option>
+                    <option value="Policial" >Policial</option>
+                    <option value="Premiados" >Premiados</option>
+                    <option value="Romance" >Romance</option>
+                    <option value="Suspense" >Suspense</option>
+                    <option class="cor_vermelho" value="Terror" >Terror</option>
+                </select>
+        </p>
+        <p>
+            <label class="alinhar" style='color:white' for="nvd">Nome da Sugestão:*</label>
+            <input class="alinhar" id="nvd" type="text" name="nome_video" size="20" maxlength="100" required>
+        </p>
+        <p>
+            <input class="botao_sugestao" type="submit" value="Enviar Sugestão">
+        </p>
+    </form>
+</body>
+</html>
