@@ -17,6 +17,7 @@ body {
 p{
     font-size: 44px;
     color: white;
+    border-radius: 4rem 4rem 4rem 4rem;
 }
 
 select{

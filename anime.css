@@ -9,9 +9,16 @@ p{
     text-align: center;
     color: white;
     border: 4px solid;
+    padding: 5px;
+    box-shadow: 10px 15px 15px 0px rgba(255,0,0,0.4);
     border-radius: 4rem 4rem 4rem 4rem;
 }
 
 iframe{
-    
+
+}
+
+.linha{
+    text-decoration: none;
+    color: white
 }
